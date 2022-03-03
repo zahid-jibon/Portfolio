@@ -243,6 +243,7 @@ body.light-theme{
 
 #theme-button{
   margin: .5rem;
+  margin-right: 5rem;
 }
 .nav{
   height: var(--header-height);
@@ -255,7 +256,7 @@ body.light-theme{
   color: var(--first-color);
   font-weight: var(--medium-font);
   transition: 0.4s;
-  margin: 1rem;
+  margin: 5rem;
 }
 
 .nav__logo:hover{
@@ -414,13 +415,15 @@ body.light-theme{
 .home_scroll-name{
   font-size: var(--medium-font);
   transform: rotate(-90deg);
+  margin-left: -26px;
+  margin-top: 5px;
 }
 
 /*=============== BUTTONS ===============*/
 .button{
   display: inline-block;
   background-color: var(--first-color);
-  color: var(--body-color);
+  color: #fff;
   padding: .75rem 1rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
@@ -429,7 +432,7 @@ body.light-theme{
 
 .button:hover{
   background-color: var(--first-color-alt);
-  color: var(--body-color);
+  color: #fff;
 }
 
 .button-ghost{
@@ -856,12 +859,13 @@ body.light-theme{
 
 .footer__title,
 .footer__list{
-  color: var(--body-color);
+  color: #fff;
 }
 
 .footer__title{
   text-align: center;
   margin-bottom: 2rem;
+
 }
 
 .footer__list{
@@ -879,7 +883,7 @@ body.light-theme{
 
 .footer__social-link{
   background-color: var(--body-color);
-  color: var(--first-color);
+  color: #fff;
   padding: .25rem;
   border-radius: .25rem;
   font-size: 1rem;
@@ -889,7 +893,7 @@ body.light-theme{
 .footer__copy{
   display: block;
   margin-top: 4rem;
-  color: var(--container-color);
+  color: #fff;
   text-align: center;
   font-size: var(--smaller-font-size);
 }
@@ -926,7 +930,9 @@ body.light-theme{
     height: 253px;
   }
   .home_img{
-    width: 150px;
+    width: 180px;
+    margin-right: 5px;
+    
   }
   .about_info{
     grid-template-columns: repeat(2, 1fr);
